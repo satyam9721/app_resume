@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
   const [loading, setLoading] = useState(false);
 
 
-
+const emailLink = 'https://example.com/api/send';
   const onSubmit = async (data: ContactFormInputs) => {
     setLoading(true);
     try {
